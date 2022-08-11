@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background: #FEFAE0;">
+        <div id="logo" style="background:#606C38;display:flex;flex-direction: row;justify-content:center;font-size: 20px;padding-top: 20px;padding-bottom: 20px;">
+            <img src="image.png" style="width: 70px;height: 70px; margin-left:50px;margin-right: 100px;">
+            <a id="home" href="https://shreywey.github.io/Demo-Day-Project/" style="color:black;margin-right: 100px;margin-top: 20px;text-decoration: none;">HOME</a>
+            <a id="quests" href="https://anonymousperson101.github.io/cleangreen-challenges" style="color:black;margin-right: 100px;margin-top: 20px;text-decoration: none;">QUESTS</a>
+            <a id="game" href="https://anonymousperson101.github.io/cleangreen-games" style="color:black;margin-right: 100px;margin-top: 20px;text-decoration: none;">GAMES</a>
+            <a id="search" href="https://anonymousperson101.github.io/cleangreen-search" style="color:black;margin-right: 100px;margin-top: 20px;text-decoration: none;">SEARCH</a>
+            <a id="about_us" href="https://anonymousperson101.github.io/cleangreen-about-us" style="color:black;margin-top: 20px;text-decoration: none;margin-right:10px;">ABOUT US</a>
+        </div>
+        <div id="area">
+            <h3>Enter material or waste</h3>
+            <input type="text" id="user_text">
+            <button id="check" onclick="runSearch()">check</button>
+            <h3 id="result"></h3>
+            <div id="fade">
+                <ol>
+                    <li>Try to describe it</li>
+                    <li>Notify us on github <a href=""> click here</a></li>
+                </ol>
+            </div>
+        </div>
+        <script src="identify.js"></script>
+        </body>
+</html>

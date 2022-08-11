@@ -1,0 +1,5 @@
+body{background: linear-gradient(180deg, rgb(23, 182, 148) 0%, hsl(196,90%,50%) 100%);}
+#area{display: flex;flex-direction: column;justify-content: center;margin-top:200px;background-color: aliceblue;margin-left: 300px;margin-right: 300px;border: 15px solid #283618;}
+h3{display: flex;justify-content: center;font-family: 'Times New Roman', Times, serif;font-size: 30px;}
+#check{color:green;}
+#fade{visibility : hidden; opacity: 0;}
